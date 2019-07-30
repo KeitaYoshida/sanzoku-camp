@@ -1,4 +1,5 @@
 # sanzoku-camp
+<<<<<<< HEAD
 
 ## Project setup
 ```
@@ -27,3 +28,6 @@ yarn run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+sanzoku-camp
+>>>>>>> origin/master
