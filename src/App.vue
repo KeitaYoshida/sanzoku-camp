@@ -1,9 +1,12 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <v-app>
+      <v-toolbar flat color="transparent">
+        <v-spacer></v-spacer>
+        <v-btn text color="primary" to="/">home</v-btn>
+        <v-btn text color="primary" to="/about">about</v-btn>
+      </v-toolbar>
+      <router-view />
+    </v-app>
   </div>
 </template>
