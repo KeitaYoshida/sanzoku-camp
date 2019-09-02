@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <v-app>
+    <v-app class="wf-roundedmplus1c">
       <v-toolbar flat color="transparent">
         <v-spacer></v-spacer>
         <v-btn text color="primary" to="/">home</v-btn>

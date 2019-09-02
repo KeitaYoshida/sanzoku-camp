@@ -1,12 +1,9 @@
 <template>
   <v-container>
     <v-layout text-center wrap>
-      <v-flex xs12>
-        <v-img :src="require('../assets/logo.svg')" class="my-3" contain height="200"></v-img>
-      </v-flex>
-
       <v-flex mb-4>
-        <h1 class="display-2 font-weight-bold mb-3 dot10">山賊キャンプ</h1>
+        <img src="../assets/img/sanzoku_logo.png" alt="Sanzoku Jr" width="400px" />
+        <h1 class="def-color">さん族Jr</h1>
         <p class="subheading font-weight-regular">
           For help and collaboration with other Vuetify developers,
           <br />please join our online
