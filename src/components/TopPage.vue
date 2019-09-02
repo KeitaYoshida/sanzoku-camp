@@ -1,16 +1,20 @@
 <template>
-  <main>
-    <img src="../assets/img/sanzoku_logo.png" alt="Sanzoku Jr" width="400px" />
-    <h1 class="def-color">さん族Jr</h1>
-  </main>
+  <v-container>
+    <v-layout wrap text-center>
+      <v-flex xs12>
+        <Title />
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
 import { mapState, mapActions } from "vuex";
+import Title from "../components/com/title/Title";
 
 export default {
   props: [],
-  components: {},
+  components: { Title },
   data: function() {
     return {};
   },
